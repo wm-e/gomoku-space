@@ -6,35 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4819F10E2CDF5819003CA0AE /* EnvironmentOverrides in Frameworks */ = {isa = PBXBuildFile; productRef = 4819F10D2CDF5819003CA0AE /* EnvironmentOverrides */; };
-		4819F1172CDF6DD4003CA0AE /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 4819F1162CDF6DD4003CA0AE /* ViewInspector */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		4887342A2CDCA2DD00B400A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4887340F2CDCA2DB00B400A3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 488734162CDCA2DB00B400A3;
-			remoteInfo = CountriesSwiftUI;
+			remoteInfo = GomokuSpace;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		488734172CDCA2DB00B400A3 /* CountriesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		488734292CDCA2DD00B400A3 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488734172CDCA2DB00B400A3 /* GomokuSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GomokuSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488734292CDCA2DD00B400A3 /* GomokuSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		488734192CDCA2DB00B400A3 /* CountriesSwiftUI */ = {
+		488734192CDCA2DB00B400A3 /* GomokuSpace */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CountriesSwiftUI;
+			path = GomokuSpace;
 			sourceTree = "<group>";
 		};
-		4887342C2CDCA2DD00B400A3 /* UnitTests */ = {
+		4887342C2CDCA2DD00B400A3 /* GomokuSpaceTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UnitTests;
+			path = GomokuSpaceTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4819F10E2CDF5819003CA0AE /* EnvironmentOverrides in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4819F1172CDF6DD4003CA0AE /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +55,8 @@
 		4887340E2CDCA2DB00B400A3 = {
 			isa = PBXGroup;
 			children = (
-				488734192CDCA2DB00B400A3 /* CountriesSwiftUI */,
-				4887342C2CDCA2DD00B400A3 /* UnitTests */,
+				488734192CDCA2DB00B400A3 /* GomokuSpace */,
+				4887342C2CDCA2DD00B400A3 /* GomokuSpaceTests */,
 				488734182CDCA2DB00B400A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,8 +64,8 @@
 		488734182CDCA2DB00B400A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				488734172CDCA2DB00B400A3 /* CountriesSwiftUI.app */,
-				488734292CDCA2DD00B400A3 /* UnitTests.xctest */,
+				488734172CDCA2DB00B400A3 /* GomokuSpace.app */,
+				488734292CDCA2DD00B400A3 /* GomokuSpaceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		488734162CDCA2DB00B400A3 /* CountriesSwiftUI */ = {
+		488734162CDCA2DB00B400A3 /* GomokuSpace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4887343D2CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "CountriesSwiftUI" */;
+			buildConfigurationList = 4887343D2CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "GomokuSpace" */;
 			buildPhases = (
 				488734132CDCA2DB00B400A3 /* Sources */,
 				488734142CDCA2DB00B400A3 /* Frameworks */,
@@ -93,19 +86,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				488734192CDCA2DB00B400A3 /* CountriesSwiftUI */,
+				488734192CDCA2DB00B400A3 /* GomokuSpace */,
 			);
-			name = CountriesSwiftUI;
+			name = GomokuSpace;
 			packageProductDependencies = (
-				4819F10D2CDF5819003CA0AE /* EnvironmentOverrides */,
 			);
-			productName = CountriesSwiftUI;
-			productReference = 488734172CDCA2DB00B400A3 /* CountriesSwiftUI.app */;
+			productName = GomokuSpace;
+			productReference = 488734172CDCA2DB00B400A3 /* GomokuSpace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		488734282CDCA2DD00B400A3 /* UnitTests */ = {
+		488734282CDCA2DD00B400A3 /* GomokuSpaceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 488734402CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildConfigurationList = 488734402CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "GomokuSpaceTests" */;
 			buildPhases = (
 				488734252CDCA2DD00B400A3 /* Sources */,
 				488734262CDCA2DD00B400A3 /* Frameworks */,
@@ -117,14 +109,13 @@
 				4887342B2CDCA2DD00B400A3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4887342C2CDCA2DD00B400A3 /* UnitTests */,
+				4887342C2CDCA2DD00B400A3 /* GomokuSpaceTests */,
 			);
-			name = UnitTests;
+			name = GomokuSpaceTests;
 			packageProductDependencies = (
-				4819F1162CDF6DD4003CA0AE /* ViewInspector */,
 			);
-			productName = CountriesSwiftUITests;
-			productReference = 488734292CDCA2DD00B400A3 /* UnitTests.xctest */;
+			productName = GomokuSpaceTests;
+			productReference = 488734292CDCA2DD00B400A3 /* GomokuSpaceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -135,8 +126,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
-				ORGANIZATIONNAME = "Alexey Naumov";
+				LastUpgradeCheck = 2610;
+				ORGANIZATIONNAME = "WM Engineering";
 				TargetAttributes = {
 					488734162CDCA2DB00B400A3 = {
 						CreatedOnToolsVersion = 16.1;
@@ -147,28 +138,25 @@
 					};
 				};
 			};
-			buildConfigurationList = 488734122CDCA2DB00B400A3 /* Build configuration list for PBXProject "CountriesSwiftUI" */;
+			buildConfigurationList = 488734122CDCA2DB00B400A3 /* Build configuration list for PBXProject "GomokuSpace" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 				ja,
-				de,
 			);
 			mainGroup = 4887340E2CDCA2DB00B400A3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				4819F10C2CDF5819003CA0AE /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */,
-				4819F1152CDF6DD4003CA0AE /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 488734182CDCA2DB00B400A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				488734162CDCA2DB00B400A3 /* CountriesSwiftUI */,
-				488734282CDCA2DD00B400A3 /* UnitTests */,
+				488734162CDCA2DB00B400A3 /* GomokuSpace */,
+				488734282CDCA2DD00B400A3 /* GomokuSpaceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +198,7 @@
 /* Begin PBXTargetDependency section */
 		4887342B2CDCA2DD00B400A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 488734162CDCA2DB00B400A3 /* CountriesSwiftUI */;
+			target = 488734162CDCA2DB00B400A3 /* GomokuSpace */;
 			targetProxy = 4887342A2CDCA2DD00B400A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -221,6 +209,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -251,6 +240,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D57V5787KR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -268,12 +258,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -285,6 +276,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -315,6 +307,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D57V5787KR;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -326,11 +319,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
@@ -344,24 +338,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CountriesSwiftUI/Resources\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GomokuSpace/Resources\"";
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = .gitkeep;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.CountriesSwiftUI;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmengineering.Gomoku-Space";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -378,24 +373,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CountriesSwiftUI/Resources\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GomokuSpace/Resources\"";
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = .gitkeep;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.CountriesSwiftUI;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmengineering.Gomoku-Space";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -412,14 +408,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.CountriesSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmengineering.Gomoku-Space-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountriesSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountriesSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GomokuSpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GomokuSpace";
 			};
 			name = Debug;
 		};
@@ -430,21 +427,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.CountriesSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wmengineering.Gomoku-Space-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountriesSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountriesSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GomokuSpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GomokuSpace";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		488734122CDCA2DB00B400A3 /* Build configuration list for PBXProject "CountriesSwiftUI" */ = {
+		488734122CDCA2DB00B400A3 /* Build configuration list for PBXProject "GomokuSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4887343B2CDCA2DD00B400A3 /* Debug */,
@@ -453,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4887343D2CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "CountriesSwiftUI" */ = {
+		4887343D2CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "GomokuSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4887343E2CDCA2DD00B400A3 /* Debug */,
@@ -462,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		488734402CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+		488734402CDCA2DD00B400A3 /* Build configuration list for PBXNativeTarget "GomokuSpaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				488734412CDCA2DD00B400A3 /* Debug */,
@@ -472,38 +470,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4819F10C2CDF5819003CA0AE /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nalexn/EnvironmentOverrides";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.4;
-			};
-		};
-		4819F1152CDF6DD4003CA0AE /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nalexn/ViewInspector";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.10.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4819F10D2CDF5819003CA0AE /* EnvironmentOverrides */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4819F10C2CDF5819003CA0AE /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */;
-			productName = EnvironmentOverrides;
-		};
-		4819F1162CDF6DD4003CA0AE /* ViewInspector */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4819F1152CDF6DD4003CA0AE /* XCRemoteSwiftPackageReference "ViewInspector" */;
-			productName = ViewInspector;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4887340F2CDCA2DB00B400A3 /* Project object */;
 }

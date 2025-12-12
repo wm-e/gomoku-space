@@ -1,52 +1,32 @@
-// swift-tools-version: 6.1
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version: 5.7
 
 import PackageDescription
 
 let package = Package(
-    name: "CountriesSwiftUI",
+    name: "GomokuSpace",
     platforms: [
-        .iOS(.v18),
+        .iOS(.v15),
         .macOS(.v12)
     ],
     products: [
-        .library(name: "CountriesSwiftUI", targets: ["CountriesSwiftUI"])
-    ],
-    dependencies: [
-        .package(url: "https://github.com/nalexn/EnvironmentOverrides", from: "0.0.4"),
-        .package(url: "https://github.com/nalexn/ViewInspector", from: "0.10.0")
+        .library(name: "GomokuSpace", targets: ["GomokuSpace"])
     ],
     targets: [
         .target(
-            name: "CountriesSwiftUI",
-            dependencies: [
-                .product(name: "EnvironmentOverrides", package: "EnvironmentOverrides")
-            ],
-            path: "CountriesSwiftUI",
+            name: "GomokuSpace",
+            path: "GomokuSpace",
             exclude: [
                 "Resources/Preview Assets.xcassets",
             ],
             resources: [
                 .process("Resources/Assets.xcassets"),
                 .process("Resources/Localizable.xcstrings"),
-            ],
-            swiftSettings: [
-                .swiftLanguageMode(.v5)
-            ],
-            linkerSettings: [
-                .linkedFramework("UIKit")
             ]
         ),
         .testTarget(
-            name: "UnitTests",
-            dependencies: [
-                "CountriesSwiftUI",
-                .product(name: "ViewInspector", package: "ViewInspector")
-            ],
-            path: "UnitTests",
-            swiftSettings: [
-                .swiftLanguageMode(.v5)
-            ],
+            name: "GomokuSpaceTests",
+            dependencies: ["GomokuSpace"],
+            path: "GomokuSpaceTests"
         )
     ]
 )
